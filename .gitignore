@@ -1,2 +1,4 @@
 #mac fluff
 .DS_Store
+#puppet module generation stuff
+pkg
