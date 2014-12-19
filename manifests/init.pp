@@ -1,6 +1,6 @@
 class cpanel {
 	
-	package { "perl":    ensure => "installed"}
+	package { ["wget", "perl"]:    ensure => "installed"}
 	
     exec { "install_cpanel":
 		cwd => "/home",
